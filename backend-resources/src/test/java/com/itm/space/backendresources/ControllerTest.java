@@ -1,11 +1,9 @@
 package com.itm.space.backendresources;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.itm.space.backendresources.api.request.UserRequest;
 import com.itm.space.backendresources.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.test.context.support.WithAnonymousUser;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
